@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background: #0700CF;
+    background: -webkit-linear-gradient(to right, #0700CF 0%, #0ECFB5 54%);
+    background: -moz-linear-gradient(to right, #0700CF 0%, #0ECFB5 54%);
+    background: linear-gradient(to right, #0700CF 0%, #0ECFB5 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.rainbow-text {
+  background-image: repeating-linear-gradient(to left, violet, blue, green, yellow, red);   -webkit-background-clip: text;
+  color: transparent;
+}
